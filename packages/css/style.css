@@ -7,14 +7,14 @@
 }
 
 html {
-	background-color: #ececec;
-	color: #373667;
+	color: #2c2b4d;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	padding: 0;
 	margin: 0;
+	background-color: #373667;
 }
 
 .row {
@@ -23,8 +23,8 @@ html {
 }
 
 header {
-	background-image: linear-gradient(#b3b3b38a, #b3b3b38a), url(../img/unknown.png);
-	height: 100vh;
+	background-image: linear-gradient(#d4d4d48a, #d4d4d48a), url(../img/unknown.png);
+	height: 110vh;
 	width: auto;
 	background-size: cover;
 	background-position: center;
@@ -43,6 +43,14 @@ h1 {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	width: 50%;
+}
+
+.hero-text-box2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: -30px;
+	padding-top: 10%;
 }
 
 .instructions {
@@ -111,6 +119,8 @@ h1 {
 
 form {
 	display: flex;
+	margin: 1rem 0 0 35%;
+	width: 60%;
 }
 button {
 	padding: .5rem 1rem;
@@ -134,12 +144,9 @@ button:hover {
 	justify-content: center;
 }
 
-input {
-	margin: 0 0 10% 0;
-	padding: .3rem .2rem;
+input[type=number] {
+    text-align: right;
 	width: 100%;
-	border-radius: 0;
-	border: 1px solid #000;
 }
 
 h2 {
@@ -156,4 +163,9 @@ p {
 .div-proceed {
 	display: flex;
 	justify-content: center;
+}
+
+.package-calc li figure img {
+	height: auto;
+	width: 75%;
 }

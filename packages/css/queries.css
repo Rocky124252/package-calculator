@@ -1,88 +1,62 @@
+@media only screen and (max-width:1800px) {
+    h2 {
+        margin: 4% auto 0 auto;
+    }
+}
+
 @media only screen and (max-width:1600px) {
-    form {
-        margin: 1rem 0 0 35%;
-        width: 60%;
-    }
-}
-
-@media only screen and (max-width:1440px) {
-    form {
-        margin: 1rem 0 0 36%;
-    }
-}
-
-@media only screen and (max-width:1257px) {
-    form {
-        margin: 1rem 0 0 36%;
-    }
-}
-
-
-
-@media only screen and (max-width:1050px) {
-    form {
-        margin: 1rem 0 1rem 35%;
-        width: 61%;
-
-    }
-    input {
-        margin: 0 0 1% 0;
-        padding: .1rem 1rem;
-    }
-
-    button {
-        padding: .2rem .7rem;
-        font-size: .8rem;
-        height: 1.6rem;
-    }
-}
-
-
-@media only screen and (max-width:956px) {
     h2 {
-        font-size: 200%;
-        font-weight: 500;
-        margin: 1% auto 1% auto;
-    }
-    
-    p {
-        font-size: 60%;
-        font-weight: 600;
-    }
-}
-
-@media only screen and (max-width:864px) {
-    h2 {
-        font-size: 125%;
-        font-weight: 500;
-        margin: 0 auto 0 auto;
-    }
-    
-    p {
-        font-size: 50%;
-        font-weight: 600;
-        margin-bottom: 3%;
-    }
-
-    input {
-        margin: 0 0 10% 0;
-        padding: .1rem 1rem;
-        width: 100%;
-        border-radius: 0;
-    }
-
-    button {
-        padding: .2rem .7rem;
-        font-size: .8rem;
-        background-color: #373667;
-        color: #fff;
-        height: 1.5rem;
-        text-decoration: none;
-        border: none;
-        transition: all .2s;
-    }
-    h1 {
+        margin: 3% auto 0 auto;
         font-size: 180%;
     }
+    p {
+        font-size: 70%;
+    }
+}
 
+@media only screen and (max-width:1400px) {
+    h2 {
+        margin: 2% auto 0 auto;
+        font-size: 130%;
+    }
+    p {
+        font-size: 70%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    h2 {
+        margin: 2% auto 0 auto;
+        font-size: 110%;
+    }
+    p {
+        font-size: 70%;
+    }
+    input[type=number] {
+        border: 3px solid #4b498f;
+        height: 40px;
+        text-align: center;
+        font-size: 80%;
+        width: 400px;
+    }
+
+    .package-calc li figure img {
+        height: auto;
+        width: 145px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    h1 {
+        font-size: 175%;
+    }
+}
+@media only screen and (max-width:800px) {
+    h1 {
+        font-size: 120%;
+    }
 }

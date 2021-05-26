@@ -24,7 +24,7 @@ html {
 
 header {
 	background-image: linear-gradient(#d4d4d48a, #d4d4d48a), url(../img/unknown.png);
-	height: 110vh;
+	height: 100vh;
 	width: auto;
 	background-size: cover;
 	background-position: center;
@@ -32,7 +32,7 @@ header {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight:800;
 }
 
@@ -46,11 +46,12 @@ h1 {
 }
 
 .hero-text-box2 {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
 	width: 50%;
-	margin: 0 auto;
-	margin-top: -30px;
-	padding-top: 10%;
 }
 
 .instructions {
@@ -87,6 +88,16 @@ h1 {
 
 
 .options-photo img {
+	width: 70%;
+	height: auto;
+	opacity: .9;
+	transition: all .3s;
+	transform: scale(1.4);
+	overflow: hidden;
+}
+
+.options-photo2 img {
+	padding-right: 3rem;
 	width: 80%;
 	height: auto;
 	opacity: .9;
@@ -102,8 +113,9 @@ h1 {
 
 .package-calc {
 	background-color:#fff;
-
+	border: 3px solid #4b498f;
 }
+
 
 .options-photo2 {
 	padding: 0;
@@ -124,10 +136,9 @@ form {
 }
 button {
 	padding: .5rem 1rem;
-	font-size: .8rem;
+	font-size: .9rem;
 	background-color: #373667;
 	color: #fff;
-	height: 1.9rem;
 	text-decoration: none;
 	border: none;
 	transition: all .2s;
@@ -138,15 +149,13 @@ button:hover {
 	font-size: .79rem;
 }
 
-.btn-proceed {
-	margin-top: 4%;
-	display: flex;
-	justify-content: center;
-}
+
 
 input[type=number] {
-    text-align: right;
 	width: 100%;
+	border: 3px solid #4b498f;
+	height: 55px;
+	text-align: center;
 }
 
 h2 {

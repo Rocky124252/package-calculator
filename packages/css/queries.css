@@ -1,0 +1,59 @@
+@media only screen and (max-width:1600px) {
+    h2 {
+        font-size: 200%;
+        font-weight: 500;
+        margin: 2% auto 1% auto;
+    }
+    
+    p {
+        font-size: 60%;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:956px) {
+    h2 {
+        font-size: 200%;
+        font-weight: 500;
+        margin: 1% auto 1% auto;
+    }
+    
+    p {
+        font-size: 60%;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:864px) {
+    h2 {
+        font-size: 125%;
+        font-weight: 500;
+        margin: 0 auto 0 auto;
+    }
+    
+    p {
+        font-size: 50%;
+        font-weight: 600;
+        margin-bottom: 3%;
+    }
+
+    input {
+        margin: 0 0 10% 0;
+        padding: .1rem 1rem;
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid #000;
+    }
+
+    button {
+        padding: .2rem .7rem;
+        font-size: .8rem;
+        background-color: #373667;
+        color: #fff;
+        height: 1.5rem;
+        text-decoration: none;
+        border: none;
+        transition: all .2s;
+    }
+
+}

@@ -114,6 +114,7 @@ h1 {
 .package-calc {
 	background-color:#fff;
 	border: 3px solid #4b498f;
+	height: 15rem;
 }
 
 
@@ -142,6 +143,7 @@ button {
 	text-decoration: none;
 	border: none;
 	transition: all .2s;
+	border-radius: 1px;
 }
 
 button:hover {
@@ -175,6 +177,12 @@ p {
 }
 
 .package-calc li figure img {
-	height: auto;
-	width: 75%;
+	height: 100%;
+	width: auto;
 }
+
+.a-link {
+	color: #fff;
+	text-decoration: none;
+}
+

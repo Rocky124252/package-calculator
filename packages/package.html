@@ -2,8 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Package Payment</title>
-        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <title>Package Calculator</title>
         <link rel="stylesheet" href="css/Grid.css" />
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -13,18 +12,20 @@
     <body>
         
         <header>
+            <button class="back"><a href="index.html" class="a-link">Back</a></button>
             <div class='hero-text-box2'>
                 <h1>Package Shipping</h1>
                 <div class="options">
                     <ul class="options-showcase package-calc">
                         <li>
                             <figure class="options-photo options-photo2">
-                                <img src="img/box.png" draggable="false">
+                                <img src="img/Box.png" draggable="false">
                             </figure>
                         </li> 
                         <form id="formPostage">
-                            <input type="number" name="amount" min="1" max="">
+                            <input type="number" name="amount" min="1" max="" placeholder="Type Here">
                             <button>Calculate</button>
+                            
                         </form>
                         <h2>$<span id="output">0</span></h2>
                         <p>Final Price<p>

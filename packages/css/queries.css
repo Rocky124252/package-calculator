@@ -1,6 +1,11 @@
 @media only screen and (max-width:1800px) {
     h2 {
         margin: 4% auto 0 auto;
+        
+    }
+    .package-calc {
+        
+        height: 12rem;
     }
 }
 
@@ -11,6 +16,9 @@
     }
     p {
         font-size: 70%;
+    }
+    .package-calc {
+        height: 10rem;
     }
 }
 
@@ -23,6 +31,11 @@
         font-size: 70%;
     }
 
+    .package-calc {
+        
+        height: 9rem;
+    }
+
     h1 {
         font-size: 200%;
     }
@@ -32,6 +45,10 @@
     h2 {
         margin: 2% auto 0 auto;
         font-size: 110%;
+    }
+    .package-calc {
+        
+        height: 6.4rem;
     }
     p {
         font-size: 70%;
@@ -46,7 +63,7 @@
 
     .package-calc li figure img {
         height: auto;
-        width: 145px;
+        width: 150px;
     }
 }
 

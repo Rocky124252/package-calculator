@@ -92,7 +92,6 @@ h1 {
 	height: auto;
 	opacity: .9;
 	transition: all .3s;
-	transform: scale(1.4);
 	overflow: hidden;
 }
 
@@ -100,9 +99,6 @@ h1 {
 	padding-right: 3rem;
 	width: 80%;
 	height: auto;
-	opacity: .9;
-	transition: all .3s;
-	transform: scale(1.4);
 	overflow: hidden;
 }
 
@@ -151,7 +147,24 @@ button:hover {
 	font-size: .79rem;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: 40rem;
+	background-color: #fff;
+	margin: 25rem auto auto auto;
+  }
 
+.grid-item img {
+	height:100%;
+	flex:left;
+	margin-right: 30rem;
+	padding-right: .8rem;
+}
+  .grid-item {
+	font-size: 30px;
+	text-align: center;
+	height: 8rem;
+  }
 
 input[type=number] {
 	width: 100%;
@@ -185,3 +198,8 @@ p {
 	margin: 2rem;
 }
 
+.box-info {
+	position: absolute;
+	top: 625px;
+	left: 70px;
+}
